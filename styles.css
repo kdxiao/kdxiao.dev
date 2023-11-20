@@ -1,0 +1,83 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	margin: auto;
+    padding: 64px 16px;
+    max-width: 528px;
+}
+
+/* Styling the header, main content, and footer */
+
+/* Navigation Bar */
+nav {
+    overflow: hidden; /* Clears floats */
+}
+
+/* Style the list */
+nav ul {
+    list-style-type: none; /* Removes list bullets */
+    font-size: x-large;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+/* Display list items inline */
+nav ul li {
+    display: inline-block;
+}
+
+/* Style the links */
+nav ul li a {
+    display: block; /* Makes the entire area clickable */
+    color: black;
+    text-align: none; /* Centers text */
+    padding: 0px; /* Top and bottom, Left and right padding */
+    text-decoration: none; /* Removes underline */
+}
+
+.right-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Change color on hover */
+nav ul li a:hover {
+	color: gray;
+}
+
+/* Main */
+main {
+    font-size: larger;
+}
+
+/* Footer */
+footer {
+	overflow: hidden;
+} 
+
+footer ul {
+	list-style-type: none; /* Removes list bullets */
+    /*font-size: ;*/
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+footer ul li{
+	display: inline-block;
+}
+
+footer ul li a {
+    display: block; /* Makes the entire area clickable */
+    color: black;
+    text-align: none; /* Centers text */
+    padding: 0px; /* Top and bottom, Left and right padding */
+    text-decoration: none; /* Removes underline */
+}
+
+footer ul li a:hover{
+	color: gray
+}
+
