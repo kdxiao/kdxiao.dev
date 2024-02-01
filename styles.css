@@ -1,4 +1,17 @@
 body {
+    background-color: #eff1f5;
+    color: #4c4f69;
+}
+
+a:link{
+    color: #4c4f69;
+}
+
+a:hover{
+    color: #9ca0b0;
+}
+
+body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 	margin: auto;
     padding: 64px 16px;
@@ -30,15 +43,9 @@ nav ul li {
 /* Style the links */
 nav ul li a {
     display: block; /* Makes the entire area clickable */
-    color: black;
     text-align: none; /* Centers text */
     padding: 0px; /* Top and bottom, Left and right padding */
     text-decoration: none; /* Removes underline */
-}
-
-/* Change color on hover */
-nav ul li a:hover {
-	color: gray;
 }
 
 nav ul li:first-child {
@@ -74,13 +81,24 @@ footer ul li{
 
 footer ul li a {
     display: block; /* Makes the entire area clickable */
-    color: black;
     text-align: none; /* Centers text */
     padding: 0px; /* Top and bottom, Left and right padding */
     text-decoration: none; /* Removes underline */
 }
 
-footer ul li a:hover{
-	color: gray
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1e2e;
+        color: #cdd6f4;
+    }
+
+    a:link{
+        color: #cdd6f4;
+    }
+
+    a:hover{
+        color: #a6adc8;
+    }
+
 }
 
