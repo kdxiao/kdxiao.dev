@@ -7,6 +7,10 @@ a:link{
     color: #4c4f69;
 }
 
+a:visited{
+    color: #4c4f69;
+}
+
 a:hover{
     color: #9ca0b0;
 }
@@ -96,9 +100,12 @@ footer ul li a {
         color: #cdd6f4;
     }
 
+    a:visited{
+        color: #cdd6f4;
+    }
+
     a:hover{
         color: #a6adc8;
     }
 
 }
-
