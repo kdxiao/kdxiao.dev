@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var currentHour = currentTime.getHours();
 	
     if (currentHour < 6 && currentHour > 2) {
-		messageElement.textContent = 'Good... Evening? Morning? Who\'s viewing my website this late at night?';
+	messageElement.textContent = 'Good... Evening? Morning? Who\'s viewing my website this late at night?';
     } else if (currentHour < 12) {
         messageElement.textContent = 'Good morning!';
     } else if (currentHour < 18) {
