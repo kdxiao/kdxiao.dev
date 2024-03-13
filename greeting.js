@@ -2,8 +2,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var messageElement = document.getElementById('greeting-message');
     var currentTime = new Date();
     var currentHour = currentTime.getHours();
-	
-    if (currentHour < 6 && currentHour > 2) {
+
+    if (currentHour < 2) {
+	messageElement.textContent = 'Good evening, night owl!';
+    } else if (currentHour < 6) {
 	messageElement.textContent = 'Good... Evening? Morning? Who\'s viewing my website this late at night?';
     } else if (currentHour < 12) {
         messageElement.textContent = 'Good morning!';
