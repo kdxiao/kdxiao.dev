@@ -118,6 +118,7 @@ footer ul li a {
 }
 
 .project h3 {
+	font-size: large;
     margin-bottom: 5px; /* Reduce the bottom margin */
 }
 
