@@ -1,5 +1,6 @@
 a{
     transition: color 0.25s ease-in-out;
+	cursor: pointer;
 }
 
 a:link{
@@ -128,7 +129,6 @@ footer ul li a {
 
 .project p {
     margin-top: 5px; /* Ensure a small top margin */
-    margin-bottom: 10px;
 }
 
 .project ul {
